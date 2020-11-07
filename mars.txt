@@ -1,0 +1,51 @@
+Cold and dry, but everything is my favorite color
+
+I have used the function nano mars.txt to enter the file mars.txt to edit it through git bash
+
+All im doinf now is writing notes and to check the difference using git diff 
+
+
+1) First create file in a directory of your choosing 
+
+2) The using the nano function eith the filename we will be able to edit the file choosen as we want 
+
+3) the cat function will show you whats written in the file.
+
+4) The git staus function will show you the status after editing tthe file chossen.
+
+5) When, git add function is used the git bash starts tracking the changes of the file added 
+
+6) git commit -m "Write whatever you want here" (The -m is used to write a short message), while git commit is used so that git takes everything we have told it to save it it by using git add.
+
+7) git status can be used whenever you want to check the functions you have used are working or not.
+
+8) git log shows you all the changes you have made by the dates like when and how.
+
+9) git diff is used to show the user what changes have been made between now and the past while keeeping track of all the changes 
+
+10) git diff HEAD mars.txt this function is basically the same as get diff but in the next line you will see the objective of this function 
+
+11) git diff HEAD~3 mars.txt the "HEAD" is uused as reference between the different versions of the same file. We could use git show instead of git diff to see the changes made.
+  
+12) gitignore function is used to ignore the files we choose to tell git ignore 
+
+##############################Remotes in GIT HUB
+13) we make a directory after making a repsoritarty in git hub then we use the git init function to initialize the empty repositary.
+
+14) Then we use git remote add origin the website we wanna call example: https://github.com/Imad1000/planets.git
+
+15) git remote -v is used to check the status 
+
+16) git push origin master ot git push -u origin master to add the directory to git hub. 
+
+17) It wont work so we have to fix the proxy and the commit function using -> (git commit -m "first commit") if doesnt worj -> (git commit --allow-empty -m "initial empty commit") then, to fix the proxy we do (git config --global --unset http.proxy)
+
+18) call git push -u origin master agian. Git bash will ask you for the username and password of git hub then it will be added to the resporitary in git hub 
+
+19) Basically, git push copies changes from local repositary to a remote repositary 
+	       git pull copies changes from remote repositary to a local repositary
+
+20) git clone copies a remote repositary to create a local repositary with a remote called origin automatically set up 
+
+21) Basically, get clone will able us to copy the owners code to edit as we wish using git commit -m "message"
+
